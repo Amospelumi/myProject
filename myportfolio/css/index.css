@@ -1,0 +1,238 @@
+
+.banner{
+    height: 500px;
+    background: #071066;
+    overflow: hidden;
+}
+.banner img{
+    object-fit: cover;
+    opacity: 0.3;
+    width: 100%;
+}
+.banner img:hover{
+    transform: rotateY(180deg);
+}
+.text {
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    overflow: hidden;
+    color:white;
+}
+.text button{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 18em;
+    background-color: #BC0E0E;
+    box-shadow: 3px 3px 8px black inset;
+    border-style: none;
+    color: white;
+    clear: both;
+    font-size: 100%;
+    font-weight: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.text button:hover{
+    background-image: linear-gradient(to right, red , #071066);
+    border: 4px solid white;
+    transform: scale(1.0);
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px black inset;
+    
+}
+
+.navbar{
+    /* box-shadow: 2px 2px 5px black; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+}
+
+li {
+
+    float: right;
+    
+}
+
+li a {
+    margin-top: 30px;
+    display: block;
+    box-sizing: border-box;
+    padding: 8px 8px;
+    text-decoration: none;
+    color: #071066;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: larger;
+    
+}
+li a:hover{
+    background-color: #071066;
+    color: white;
+    border-radius: 8px;
+    }
+li a.active{
+    background-color: #8a0909;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+}
+.ContactUs h2{
+    margin-left: 350px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color:#8a0909;
+    font-size: 250%;
+}
+.ContactUs{
+    overflow: hidden;
+    background-color: rgba(214, 212, 212, 0.576);
+}
+.ContactUs img{
+    object-fit: cover;
+    opacity: 0.1;
+    width: 100%;
+    
+}
+.topbutton button{
+    padding: 20px;
+    outline: 8px dotted white;
+    box-shadow: 3px 3px 7px black;
+     border-style: none;
+     border-radius: 8px;
+     height: 5em;
+     background-color: rgb(196, 195, 195);;
+     color: white; 
+     margin-left: 1250px; 
+     font-weight: 800;   
+}
+.topbutton button:hover{
+    background-color: rgb(145, 144, 144);
+    transform: scale(1.20); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+}
+.footnote{
+   background-color: #071066;
+   color: white;
+}
+h2.servehead{
+    margin-left: 550px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 250%;
+}
+table.serv{
+    border-spacing: 35px;
+    margin-left: 30px;
+    color: white;
+}
+.serv1 h3{
+    margin-left: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.servbut button{
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    box-shadow: 2px 2px 8px black inset;
+    background-color: #8a0909;
+}
+.servbut button:hover{
+    transform: scale(1.4);
+    background-image: linear-gradient(to right, red, #071066);
+}
+.img1{
+    background-color: rgb(255, 255, 255);
+    padding: 8px 8px;
+    width: 15em;
+    height: 14em;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.serv1{
+    background-color: #071066;
+    padding: 8px;
+    width: 15.5em;
+    height: 17.4em;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 2px 2px 8px black;
+    
+    
+}
+table.formtable{
+    border-spacing: 15px;
+}
+input{
+    padding: 20px;
+    border-radius: 0px 10px 0px 10px;
+    background-color: #b6bbed80;
+    border-style: none;
+    width: 70%;
+}
+input[type="Submit"]{
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #b6bbed80;
+    border-style: none;
+    background-color: #8a0909;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    
+}
+textarea{
+        padding: 20px;
+        border-radius: 0px 10px 0px 10px;
+        background-color: #b6bbed80;
+        border-style: none;
+        resize: none;
+}
+
+
+select{
+    padding: 20px;
+        border-radius: 0px 10px 0px 10px;
+        background-color: #b6bbed80;
+        border-style: none;
+}
+#gender{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+input[type="Submit"]:hover{
+    background-color: #6f0707;
+    box-shadow: 3px 3px 8px black inset;
+}
+
+form.main{
+    padding: 10px;
+    margin-left: 200px;
+    position: absolute;
+    top: 170%;
+    left: 2%;
+    overflow: hidden;
+}
+
+.content {
+    padding:20px;
+    text-align: justify;
+    font-size: 120%;
+    color: rgb(141, 141, 141);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aboutus{
+    margin-left: 220px;
+}

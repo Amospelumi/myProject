@@ -1,0 +1,12 @@
+table{
+    border-spacing: 50px 50px;
+    padding: 10px 10px;
+    margin-left: 200px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.imgservice{
+    width: 20em;
+    height: 20em;
+}
